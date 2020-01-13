@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <p id="model-status">Loading Model...</p>
+    <canvas id="canvas"></canvas>
+    <br>
+    <button id="clear-button">Clear</button>
+    <button id="classify-button" disabled>Classify</button>
+    <p><strong>Digit:</strong> <span id="digit"></span></p>
+    <p><strong>Score:</strong> <span id="score"></span></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
